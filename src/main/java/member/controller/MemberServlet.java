@@ -15,6 +15,7 @@ public class MemberServlet extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//super.doGet(req, resp);
+		req.setCharacterEncoding("utf-8");
 	}
 	
 	@Override
